@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F28604BF-AC1E-4D0D-926F-3051ABF18F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{628EFE75-7E4A-4F0C-BD26-79ED4B89046F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		LICENSE = LICENSE
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Okta.DNX.OAuth.ResourceServer", "src\Okta.DNX.OAuth.ResourceServer\Okta.DNX.OAuth.ResourceServer.xproj", "{E7D90488-A1CB-41DB-9CC8-D77D9459D73B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D90488-A1CB-41DB-9CC8-D77D9459D73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D90488-A1CB-41DB-9CC8-D77D9459D73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D90488-A1CB-41DB-9CC8-D77D9459D73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D90488-A1CB-41DB-9CC8-D77D9459D73B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7D90488-A1CB-41DB-9CC8-D77D9459D73B} = {F28604BF-AC1E-4D0D-926F-3051ABF18F73}
+	EndGlobalSection
+EndGlobal

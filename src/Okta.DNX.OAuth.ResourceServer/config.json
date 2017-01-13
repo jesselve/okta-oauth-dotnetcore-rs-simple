@@ -1,0 +1,8 @@
+{
+  "okta": {
+    "organizationUrl": "[The url of your Okta organization, such https://company.okta.com",
+    "clientId": "[The Client ID value in the General->Client Credentials section of your OpenID Connect application as obtained from the Okta admin dashboard, e.g. koKWeLLKa6WmBQJ5mYUR]",
+    "authorizationServerIssuer": "[The url of your 'ToDo List API' Okta Authorization Server from the Security->API page of the Okta admin dashboard]",
+    "audience": "[The audience of your 'ToDo List API' Okta Authorization Server]"
+  }
+}

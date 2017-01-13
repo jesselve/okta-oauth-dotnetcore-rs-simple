@@ -1,0 +1,8 @@
+﻿{
+  "okta": {
+    "organizationUrl": "https://oauthdemos.oktapreview.com",
+    "clientId": "1muXHm6mG94QoNw94KQH",
+    "authorizationServerIssuer": "https://oauthdemos.oktapreview.com/oauth2/aus939e4ywvCrD69o0h7",
+    "audience": "http://todolist.example.com"
+  }
+}
